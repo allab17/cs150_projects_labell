@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LoadingDock
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ LoadingDock\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ LoadingDock()
+comment2.params=t
+comment2.target=void\ line_up(Truck)
+comment3.params=
+comment3.target=Truck\ remove_truck()
+comment4.params=
+comment4.target=int\ get_line_length()
+comment5.params=
+comment5.target=java.util.Queue\ get_queue()
+comment6.params=
+comment6.target=boolean\ empty_line()
+numComments=7

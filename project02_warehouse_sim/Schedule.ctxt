@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Schedule
+comment0.text=\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ action()
+comment2.params=
+comment2.target=int\ log_status()
+numComments=3

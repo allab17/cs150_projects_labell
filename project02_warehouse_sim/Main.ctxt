@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ The\ main\ method\ is\ responsible\ for\ running\ the\ program\ and\ generating\ data\ to\ analyze\ the\ performance\ of\ the\ program.\r\n\r\n\ \ Note\:\ To\ run\ call\ simulate()\ method,\ this\ will\ generate\ four\ consecutive\ random\ simulations\ and\ write\ the\ data\ for\ those\ simulations\r\n\ \ to\ four\ csv\ files\ for\ data\ analysis.\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ simulate()
+comment2.params=n
+comment2.target=void\ main(int)
+numComments=3

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Shipment
+comment0.text=\r\n\ A\ shipment\ is\ the\ physical\ object\ that\ must\ be\ moved\ by\ the\ trucks.\ The\ shipments\ are\ created\ at\ the\ warehouses\ corresponding\r\n\ to\ the\ manifest.\ Each\ shipment\ has\ a\ size\ field\ 1-3,\ an\ id\ field\ and\ a\ source\ and\ destination\ for\ the\ shipment.\ The\ size\ field\ is\r\n\ randomly\ generated\ and\ is\ important\ for\ the\ loading\ of\ the\ trucks,\ as\ a\ truck\ cannot\ fit\ a\ combined\ size\ of\ shipments\ that\ exceeds\ \r\n\ the\ load\ type\ of\ the\ truck.\ Each\ shipment\ has\ a\ unique\ id\ created\ as\ each\ shipment\ itself\ is\ created,\ this\ id\ will\ be\ used\ by\ the\r\n\ priority\ queue\ of\ manifest\ items\ to\ assert\ priority\ as\ to\ the\ order\ of\ pick-ups\ for\ the\ manifest\ items.\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=b_id\ s
+comment1.target=Shipment(int,\ int)
+comment2.params=
+comment2.target=int\ get_id()
+comment2.text=\r\n\ Get\ id\r\n\r\n\ @return\ \ \ \ \ \ \ id\r\n
+comment3.params=s
+comment3.target=void\ set_source(Warehouse)
+comment3.text=\r\n\ Set\ the\ source\ warehouse\ for\ the\ shipment\ in\ question.\r\n\r\n\ @param\ \ \ \ \ \ \ source\ warehouse\r\n
+comment4.params=d
+comment4.target=void\ set_destination(Warehouse)
+comment4.text=\r\n\ Set\ the\ destination\ warehouse\ for\ the\ shipment\ in\ question.\r\n\r\n\ @param\ \ \ \ \ \ \ destination\ warehouse\r\n
+comment5.params=
+comment5.target=int\ get_size()
+comment5.text=\r\n\ Gets\ the\ size\ of\ the\ shipment.\r\n\r\n\ @return\ \ \ \ \ \ \ size\ of\ the\ shipment\r\n
+comment6.params=
+comment6.target=Warehouse\ get_source()
+comment6.text=\r\n\ Gets\ the\ source\ warehouse\ for\ the\ shipment,\ assigned\ randomly\ upon\ creation\ of\ the\ manifest\ item.\r\n\r\n\ @return\ \ \ \ \ \ \ source\ warehouse\r\n
+comment7.params=
+comment7.target=Warehouse\ get_destination()
+comment7.text=\r\n\ Gets\ the\ destination\ warehouse\ for\ the\ shipment,\ assigned\ randomly\ upon\ creation\ of\ the\ manifest\ item.\r\n\r\n\ @return\ \ \ \ \ \ \ destination\ warehouse\r\n
+numComments=8

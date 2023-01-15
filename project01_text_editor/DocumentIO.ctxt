@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=DocumentIO
+comment0.text=\r\n\ The\ DocumentIO\ class\ will\ be\ used\ to\ handle\ some\ of\ the\ file\ input/output\ functionality\ such\ as\ opening,\ closing,\ reading\ and\ writing\r\n\ to\ divide\ some\ of\ the\ functionality\ between\ Document\ and\ DocumentIO\ and\ create\ a\ better\ sense\ of\ modularity\ within\ the\ program\ as\ a\ whole.\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=f
+comment1.target=DocumentIO(java.lang.String)
+comment2.params=file_name
+comment2.target=void\ open_file(java.lang.String)
+comment2.text=\r\n\ The\ open_file\ method\ will\ prime\ a\ file\ for\ reading.\r\n\r\n\ @param\ \ file_name\r\n\ @return\ void\r\n
+comment3.params=
+comment3.target=void\ close_file()
+comment3.text=\r\n\ The\ close_file\ method\ will\ close\ the\ scanner\ and\ FileInputStream.\r\n\r\n\ @return\ void\r\n
+comment4.params=
+comment4.target=java.lang.String\ read_line()
+comment4.text=\r\n\ The\ read_line\ method\ will\ read\ a\ single\ line\ using\ the\ scaner\ object\ and\ return\ the\ line.\r\n\r\n\ @return\ void\r\n
+comment5.params=
+comment5.target=boolean\ has_more_lines()
+comment5.text=\r\n\ The\ has_more_lines\ method\ will\ see\ if\ the\ file\ has\ more\ lines\ to\ be\ read.\r\n\r\n\ @return\ boolean\r\n
+numComments=6

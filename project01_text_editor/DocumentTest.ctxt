@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DocumentTest
+comment0.text=\r\n\ The\ test\ class\ DocumentTest.\r\n\r\n\ @author\ \ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=DocumentTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ DocumentTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ load_file_tb()
+comment5.params=
+comment5.target=void\ toStringDocument_tb()
+comment6.params=
+comment6.target=void\ toStringDocument_linked_tb()
+comment7.params=
+comment7.target=void\ line_length_linked_tb()
+comment8.params=
+comment8.target=void\ line_length_tb()
+comment9.params=
+comment9.target=void\ linked_line_length_tb()
+numComments=10

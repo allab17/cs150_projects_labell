@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=DocumentIOTest
+comment0.text=\r\n\ The\ test\ class\ DocumentIOTest.\r\n\r\n\ @author\ \ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=DocumentIOTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ DocumentIOTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=4

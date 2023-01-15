@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Manifest
+comment0.text=\r\n\ Each\ truck\ has\ a\ manifest\ that\ represents\ the\ manifest\ items\ it\ must\ complete,\ (the\ shipments\ it\ must\ complete).\ Each\ manifest\r\n\ consists\ of\ a\ priority\ queue\ of\ manifest\ items\ that\ will\ assert\ priority\ for\ each\ manifest\ depending\ on\ the\ truck's\ current\ location\r\n\ and\ the\ source\ warehouse\ for\ the\ pickup\ in\ question\ as\ well\ as\ the\ age\ of\ the\ shipment.\ Shipments\ with\ ids\ that\ are\ smaller\ are\ thus\ older\r\n\ and\ therefore\ should\ have\ higher\ priority.\ The\ truck\ object\ will\ utilize\ this\ highest\ priority\ manifest\ item\ to\ decide\ which\ order\r\n\ to\ perform\ its\ pickups.\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=c\ t\ manifest_size
+comment1.target=Manifest(Clock,\ Truck,\ int)
+comment2.params=w
+comment2.target=void\ init(Warehouse[])
+comment2.text=\r\n\ We\ need\ a\ complete\ warehouse\ list\ in\ order\ to\ create\ a\ manifest,\ therefore\ in\ the\ Clock\ object\ we\ first\ call\ init\ warehouses\ to\r\n\ create\ the\ warehouses.\ This\ method\ will\ create\ an\ array\ list\ of\ manifest\ items,\ each\ manifest\ item\ will\ be\ given\ a\ source\ and\ a\ \r\n\ destination\ chosen\ randomly\ within\ the\ array\ of\ warehouses,\ ensuring\ that\ no\ source\ and\ destination\ warehouse\ are\ the\ same.\ \r\n\ This\ array\ list\ of\ manifest\ items\ will\ then\ be\ added\ to\ the\ priority\ queue\ that\ must\ be\ initalized\ before\ any\ processing\ can\ begin.\r\n\r\n\ @param\ \ \ \ \ \ \ Array\ of\ warehouses\r\n
+comment3.params=
+comment3.target=void\ init_priority_queue()
+comment3.text=\r\n\ Create\ a\ new\ priority\ queue\ and\ populate\ the\ priority\ queue\ with\ the\ array\ list.\ \r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ get_manifest_list()
+comment4.text=\r\n\ Get\ the\ array\ list\ of\ manifest\ items.\r\n\ \r\n\ @return\ \ \ ArrayList\ manifest\ items\r\n
+comment5.params=
+comment5.target=ManifestItem\ get_highest_priority_manifest()
+comment5.text=\r\n\ Get\ the\ highest\ priority\ manifest\ item.\r\n\ \r\n\ @return\ \ \ ManifestItem\r\n
+comment6.params=
+comment6.target=java.util.PriorityQueue\ get_manifest_queue()
+comment6.text=\r\n\ Get\ the\ priority\ queue\ of\ manifest\ items.\r\n\ \r\n\ @return\ \ \ PriorityQueue\r\n
+numComments=7

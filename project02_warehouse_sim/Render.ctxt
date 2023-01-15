@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Render
+comment0.text=\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=g
+comment1.target=void\ draw(java.awt.Graphics)
+numComments=2

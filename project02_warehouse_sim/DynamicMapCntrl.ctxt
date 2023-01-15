@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DynamicMapCntrl
+comment0.text=\r\n\ DynamicMapCntrl\ is\ used\ to\ control\ the\ dynamic\ map\ used\ to\ display\ the\ trucks\ and\ warehouses.\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=DynamicMapCntrl()
+comment2.params=
+comment2.target=void\ refresh()
+comment3.params=t
+comment3.target=void\ add(Render)
+comment4.params=str\ size_x\ size_y
+comment4.target=DynamicMapCntrl(java.lang.String,\ int,\ int)
+numComments=5

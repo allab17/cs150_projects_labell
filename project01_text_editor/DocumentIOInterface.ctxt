@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=DocumentIOInterface
+comment1.params=file_name
+comment1.target=void\ open_file(java.lang.String)
+comment1.text=\r\n\ An\ example\ of\ a\ method\ header\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ the\ result\ produced\ by\ sampleMethod\r\n
+comment2.params=
+comment2.target=void\ close_file()
+comment3.params=
+comment3.target=java.lang.String\ read_line()
+comment4.params=
+comment4.target=boolean\ has_more_lines()
+numComments=5

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=LinkedList
+comment0.text=\r\n\ The\ LinkedList\ class\ has\ the\ basic\ functionality\ of\ a\ linked\ list;\ add,\ remove,\ size,\ get.\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=e
+comment1.target=void\ add(char)
+comment2.params=index\ e
+comment2.target=void\ add(int,\ char)
+comment3.params=index
+comment3.target=int\ remove(int)
+comment4.params=
+comment4.target=int\ size()
+comment5.params=index
+comment5.target=Node\ get(int)
+comment6.params=
+comment6.target=void\ clear()
+comment7.params=
+comment7.target=boolean\ isEmpty()
+comment8.params=d
+comment8.target=boolean\ contains(char)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

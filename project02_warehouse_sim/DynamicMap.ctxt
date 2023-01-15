@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DynamicMap
+comment0.text=\r\n\ Render\ the\ trucks\ and\ warehouses.\r\n\r\n\ @author\ Alexander\ Labell\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=DynamicMap()
+comment2.params=item
+comment2.target=void\ add(Render)
+comment3.params=g
+comment3.target=void\ paintComponent(java.awt.Graphics)
+numComments=4

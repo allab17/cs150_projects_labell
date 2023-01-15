@@ -1,0 +1,7 @@
+line 1
+text to addline 2
+lintxte 3
+line 4
+line 5
+lmoretext.ine 6
+line 7
